@@ -312,23 +312,29 @@ manually_cleaned_antigens_df.to_csv("manually_cleaned_antigens.csv", index=False
 response_list = []
 
 
-for antigen in (pbar := tqdm(manually_cleaned_antigens)):
-    pbar.set_description(str(antigen))
+import concurrent.futures
 
+
+def process_antigen(antigen):
     user_message = initial_prompt(antigen)
     response_text = prompt_llm(user_message)
-    # Extract the JSON dictionary from the response text.
     try:
         json_dict = parse_json_garbage(response_text)
-        response_list.append(json_dict)
+        return json_dict
     except json.JSONDecodeError:
         json_dict = {
             "original_string": antigen,
             "response": response_text,
             "error": "The response is not a valid JSON dictionary.",
         }
-        response_list.append(json_dict)
-        continue
+        return json_dict
+
+
+response_list = []
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    results = executor.map(process_antigen, manually_cleaned_antigens)
+    for result in tqdm(results, total=len(manually_cleaned_antigens)):
+        response_list.append(result)
 
 
 cleaned_to_harmonized = {
@@ -346,14 +352,10 @@ print(f"{unique_harmonized} antigens after LLM harmonization.")
 output_data = []
 
 for index, row in df.iterrows():
-    # Create a list of unique antibodies, markers and channels from the df
-    unique_antibodies = df["Antibody_Name"].explode().unique()
-    unique_markers = df["Marker_Name"].explode().unique()
-    unique_channels = df["Channel_Name"].explode().unique()
 
     # Combine these into a single list
     original_antigens = list(
-        set(unique_antibodies) | set(unique_markers) | set(unique_channels)
+        set(row["Antibody_Name"]) | set(row["Marker_Name"]) | set(row["Marker_Name"])
     )
 
     cleaned_antigens = list(
@@ -408,6 +410,11 @@ count_data = (
 )
 count_data.columns = ["LLM Harmonized Antigen", "Unique Source ID Count"]
 
+# Sort by count in descending order
+count_data = count_data.sort_values("Unique Source ID Count", ascending=False)
+
+print(count_data.head())
+
 
 # Save the response list to a json file
 with open("output_responses.json", "w") as f:
@@ -416,5 +423,6 @@ with open("output_responses.json", "w") as f:
 output_df.to_csv("output_antigens.csv", index=False)
 
 count_data.to_csv("output_count_table.csv", index=False)
+
 
 print("Output and count tables have been saved.")
