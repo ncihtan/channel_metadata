@@ -1,0 +1,515 @@
+LLM Harmonized Antigen,Unique Source ID Count
+Nuclear,376
+CD8,352
+CD68,323
+CD4,323
+CD20,296
+Pan-Cytokeratin,290
+CD45,269
+FOXP3,267
+VIM,257
+SMA,230
+Ki-67,226
+CD31,191
+CD3,189
+CD163,167
+PD-1,154
+PD-L1,150
+HLA-DR,141
+OLFM4,130
+CD11c,127
+PCNA,122
+Granzyme B,121
+CD11b,115
+Blank,115
+EGFR,114
+CD11B,107
+CD45RO,107
+CD3d,105
+HLA-A,103
+ERBB2,94
+Sox9,93
+Muc2,93
+STAT3,93
+SNA,93
+NaKATPase,93
+COLLAGEN,93
+Beta-Catenin,93
+CgA,93
+ACTN4,93
+Lysozyme,93
+Histone H3,92
+Collagen,80
+Lag3,80
+Ecadherin,78
+E-Cadherin,73
+Podoplanin,73
+CD3e,63
+GATA3,63
+CK19,61
+CD44,58
+GLUT1,55
+ACTG2,50
+CK14,47
+CD45RA,46
+TFF1,44
+PD-L2,41
+CD14,39
+CKIT,39
+CD74,38
+Autofluorescence,37
+MYH11,37
+MGP,37
+MUC2,37
+COL6A2,37
+Her2,34
+CD66B,33
+COX6c,33
+LGR5,33
+CTLA4,32
+CK17,32
+EOMES,32
+WNT5B,31
+RSPO3,31
+SLC39A6,29
+ASCL2,28
+WNT2B,28
+CD33,28
+REG4,28
+TBET,27
+Keratin 5,26
+DCLAMP,25
+Bap1,25
+RAB6B,24
+CD21,23
+CSF1R,22
+CDX1,22
+CD19,22
+HER2,21
+CD11C,21
+Keratin 14,21
+COL6A1,19
+RETNLB,19
+SOX17,19
+CD90,19
+CDH1,19
+FoxP3,19
+BCL2,18
+ACTA2,17
+H2AX,17
+CCR2,17
+PAX5,17
+PDPN,16
+CK7,16
+LEF1,15
+LRRC26,15
+TAGLN,15
+CD79A,15
+CK5,15
+ER,15
+MS4A1,15
+SMOC2,15
+IGLL5,15
+Ecad,15
+CD36,15
+NEURL1,15
+CD169,14
+Rb,14
+HLA-DRB1,14
+CCND1,14
+RAD51,14
+DCSIGN,13
+"CD3, CD30, NKp46",13
+RORGT,13
+TRYPTASE,13
+HistoneH3,13
+pHH3,13
+AR,13
+aSMA,13
+HNF4A,13
+Actin,13
+Unknown,13
+HLA_DR,13
+ColI,12
+CK8,12
+HIF1A,12
+WNT2,12
+AGR2,12
+PDGFRB,12
+pS6RP,11
+pRB,11
+H3K4,11
+PARP,10
+ColIV,10
+ICOS,10
+CD56,10
+H3K27,10
+PD1,10
+KIF26B,9
+LAMA,9
+GRNZB,9
+GPX2,9
+Foxp3,9
+MUC1,9
+NKP46,9
+HLAII,9
+CTNNA2,9
+KRT,9
+PLXDC2,9
+BEST4,9
+CDH19,9
+SH2D1B,9
+SLC19A2,9
+CD244,9
+PDE3A,9
+Synaphysin,9
+PDX1,9
+CLDN4,9
+CD107a,9
+Alpha-SMA,9
+CAV1,9
+BMP4,9
+CDH17,9
+TCF-1,8
+MMP9,8
+CD39,8
+HLA-DRA,8
+"ERK-1, ERK-2",8
+COXIV,8
+CDKN1A,8
+PgR,8
+HLA-DPB1,7
+HIF1a,7
+TP53,7
+CD15,7
+Secondary Antibody,7
+Maspin,7
+SOX10,7
+IL10,6
+"Pan-Cytokeratin, SOX10",6
+LAG-3,6
+cKit,6
+"PD-L1, PD-1",5
+Androgen Receptor,5
+T-BET,5
+"TCF1, TCF7",5
+S100B,5
+"Secondary Antibody, SOX10",5
+PGR,5
+beta-Integrin,5
+Cyclin-D1,5
+KIT,5
+CD138,5
+p53,5
+HLA II,5
+COX2,5
+TIM3,4
+BMP2,4
+TBK1,4
+CLDN1,4
+KRT20,4
+CTNNB1,4
+PDL1,4
+Keratin 17,4
+"COX2, PTGS2",4
+S100A,4
+CCNB1,4
+LAG3,4
+RPS6,4
+LamB1,4
+BACH1,4
+"ERK-1, Secondary Antibody",4
+"Lamin-A, Lamin-B, Lamin-C",4
+PERK,4
+MPO,4
+SOX2,4
+Histone H3.1,4
+N-Cadherin,4
+IDO,4
+AKT,4
+Nestin,4
+MYC,4
+"Secondary Antibody, CD11c",4
+CD279,4
+CD25,4
+CD206,4
+"CD20,MS4A1",4
+GFAP,4
+Cyclin-A2,4
+CD63,4
+CD16,4
+Lyve-1,4
+CD146,4
+ATP1B1,4
+CD57,4
+Desmin,4
+IRF1,3
+ZEB1,3
+hRAD51,3
+MITF,3
+VEGFR-2,3
+Tbet,3
+TUBB3,3
+"Ki-67, CD3",3
+LAMP,3
+Lamin-A C,3
+Langerin,3
+"Secondary Antibody, SOX2",3
+"Secondary Antibody, ERK-1",3
+MSH2,3
+STING,3
+P16,3
+P21,3
+P63,3
+53BP1,3
+Hematoxylin,3
+BMI1,3
+CD40,3
+CD38,3
+HLA class I,3
+CC3,3
+CD117,3
+ASMA,3
+CGA,3
+HLA-DPDQ,3
+"HLA-DR, HLA-DP, HLA-DQ",3
+pSTAT5,2
+CD42b,2
+Streptavidin,2
+Chymase,2
+"FOXP3, 236A E7",2
+FoxO1,2
+CD134,2
+Fibronectin,2
+CoxIV,2
+CD45-RA,2
+PDGFRA,2
+"MCM6, Secondary Antibody",2
+MCM6,2
+TIM-3,2
+MART-1,2
+Stat1,2
+NAT105,2
+CD40LG,2
+SOX4,2
+STAT1,2
+CD34,2
+"Secondary Antibody, Autofluorescence",2
+"Na+/K+ ATPase, Secondary Antibody",2
+Na K ATPase,2
+E2F-1,2
+"NT5E, CD73",2
+SRC,2
+CD24,2
+NGFR,2
+"E1L3N, PD-L1",2
+"SP7, CD3",2
+CD1a,2
+"SP6, Ki-67",2
+"SP32, CD20",2
+Lamin-B1,2
+PARP-1,2
+GZMB,2
+CCNE1,2
+CDX2,2
+H3K27ac,2
+"CD66B, G10F5",2
+COL1,2
+S100A1,2
+CDX-2,2
+HLA I,2
+ATP1A1,2
+beta3-Integrin,2
+KAP1,2
+ASCL1,2
+Phospho-Tyrosine,2
+mTOR,2
+p21,2
+"CD8, C8",2
+"AE1, AE3, Pan-Cytokeratin",2
+CD8a,2
+H3K27me3,2
+EP230,2
+VISTA,2
+PMEL,2
+S6,2
+H3,2
+Lamin-A,2
+"Lamin A, Lamin C",2
+Lamin,2
+"CD68, CD20",1
+SMAD1,1
+SMAD2,1
+"RNA polymerase II, Secondary Antibody",1
+CD46,1
+RPA,1
+CD79a,1
+RRBP1,1
+"CD68,PG-M1",1
+SPP1,1
+SMAD3,1
+"CD45, PD-1",1
+CD47,1
+S100-A4,1
+CD55,1
+CD66b,1
+SMAD5,1
+CD45R,1
+SOX-2,1
+CD59,1
+S100A12,1
+SREBP-1,1
+"CD163, CD11C",1
+"CD3, EOMES",1
+"alpha SMA, Pan-Cytokeratin",1
+Tryptase,1
+Tubulin beta chain,1
+BRD2,1
+BRAF,1
+BAX,1
+"Antibody: , Channel: COlIV, Marker: ",1
+Androgen receptor,1
+ATRX,1
+a-Amylase,1
+c-Maf,1
+Bcl2,1
+gH2AX,1
+ARF,1
+p27 KIP 1,1
+p27Kip1,1
+p32,1
+AREB6,1
+p57 Kip2,1
+APOE,1
+"ACTA2, SMA",1
+Tbx21,1
+TUBA1B,1
+"Secondary Antibody, CD74",1
+Stat3,1
+"Secondary Antibody, IFITM3",1
+"Secondary Antibody, Interferon gamma",1
+"Secondary Antibody, LAG-3",1
+"CD169, CD11B",1
+"Secondary Antibody, hRAD51",1
+"Secondary Antibody, pERK",1
+Sequestosome-1,1
+Snail1,1
+"CD8, HLAII",1
+Survivin,1
+CCNA,1
+CD141,1
+"T-bet, CD68",1
+CD133,1
+"CD11c, CD66B",1
+"CD11b, CD163",1
+CD11a,1
+CCR7,1
+"CCR2, CD8",1
+TMEM119,1
+RNA Pol II,1
+Histone H2AX,1
+CD81,1
+FOSL1,1
+LDH,1
+H3K27M,1
+H3.1,1
+"Granzyme B, Secondary Antibody",1
+"Granzyme B, CCR2",1
+LamB2,1
+GranB,1
+Glut1,1
+Geminin,1
+GRZB,1
+MAP-2,1
+MCM2,1
+GM130,1
+MHC class I antigen ABC,1
+MIF,1
+GLUD1,1
+GITR,1
+MOG,1
+GAPDH,1
+"FOXP3, CD169",1
+MUC5AC,1
+MX1,1
+FOXO1,1
+LC3A,1
+LAP2,1
+LAMP-1,1
+HMC,1
+Hes1,1
+Hep-Par-1,1
+IDO1,1
+IFI16,1
+IFITM3,1
+IFNB,1
+IFNG,1
+HSP 90,1
+HO-1,1
+IRF-5,1
+IRF4,1
+HER3,1
+JUN,1
+HLA_I,1
+HLA-DP,1
+KRT5,1
+Keratin,1
+"HLA II, CD3",1
+HLA A,1
+HHLA2,1
+"Ki-67, FOXP3",1
+HH3,1
+FOXA2,1
+Melan-A,1
+CD8alpha,1
+FN,1
+"PD-L1, VIM",1
+CX3CR1,1
+CPT1A,1
+COX4,1
+COX IV-1,1
+PDGFRa,1
+COL4A1,1
+CK20,1
+CK18,1
+"PGM1, CD68",1
+PLCG2,1
+IBA1,1
+POLR2B,1
+Pan-Akt,1
+"Pan-Cytokeratin, Ki-67",1
+Perforin-1,1
+CDKN2A,1
+Phospho-RNA polymerase II subunit B1,1
+Phospho-tyrosine,1
+Pin1,1
+"CDK1, CDK2, CDK3, CDK5",1
+R11c2,1
+R1c2,1
+Cleaved Caspase-3,1
+Collagen IV,1
+PAX8,1
+"NULP1, TCF25",1
+Mucin-5AC,1
+FGFR3,1
+NCR1,1
+"NCR1, NKp46",1
+NDRG1,1
+FAP,1
+NFATc1,1
+NGF receptor,1
+EZH2,1
+NOS2,1
+"ERK-1, ERK-2, pERK",1
+"Cytokeratin 14, CK1-4",1
+ERK-1,1
+NeuN,1
+NeuroD1,1
+Notch 1,1
+"Nup98, Nup96",1
+OLIG2,1
+"DCLAMP, CD45",1
+P2RY12,1
+Cytokeratin 7,1
+Cytokeratin 5,1
+CEACAM5,1

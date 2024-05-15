@@ -7,4 +7,4 @@ Run on 14 May 2024:
 - 391 channel metadata files
 - 1079 unique antigens
 - 830 unique antigens after manual cleaning
-- 469 unique antigens after LLM haromonization with LLama 3
+- 470 unique antigens after LLM haromonization with LLama 3

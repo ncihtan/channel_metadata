@@ -8,7 +8,8 @@ SELECT
   IGNORE NULLS) AS Antibody_Name,
   ARRAY_AGG(
     CASE 
-      WHEN attribute.attributeName IN ('Channel Name', 'Channel', 'CHANNEL', 'channel', 'channelName') AND attribute.attributeValue IS NOT NULL 
+      WHEN attribute.attributeName IN ('Channel Name', 'Channel', 'CHANNEL', 'channel', 'channelName') OR attribute.attributeName LIKE 'BEMS%' 
+      AND attribute.attributeValue IS NOT NULL 
       THEN attribute.attributeValue 
     END
   IGNORE NULLS) AS Channel_Name,
@@ -23,5 +24,6 @@ FROM
   UNNEST(channel_attributes) AS attribute
 WHERE
   Imaging_Assay_Type != 'H&E'
+  AND Imaging_Assay_Type != 'MERFISH'
 GROUP BY
   Channel_Metadata_ID
